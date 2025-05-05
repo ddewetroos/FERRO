@@ -4,7 +4,7 @@ from datetime import datetime
 import gspread
 from google.oauth2.service_account import Credentials
 
-# --- Google Sheets Setup using Streamlit Secrets ---
+# --- Google Sheets Setup ---
 def get_gsheet_connection():
     scope = [
         "https://www.googleapis.com/auth/spreadsheets",
@@ -12,8 +12,20 @@ def get_gsheet_connection():
     ]
     creds = Credentials.from_service_account_info(st.secrets["gsheets"], scopes=scope)
     client = gspread.authorize(creds)
-    sheet = client.open("ExtruderLog").sheet1  # Sheet must already exist and be shared with service account
+    sheet = client.open("ExtruderLog").sheet1
+    ensure_headers_exist(sheet)
     return sheet
+
+def ensure_headers_exist(sheet):
+    expected_headers = (
+        ["Timestamp", "Screw Speed"] +
+        [f"Zone {i+1}" for i in range(10)] +
+        ["Die Temp", "Comments"]
+    )
+    current = sheet.row_values(1)
+    if current != expected_headers:
+        sheet.delete_rows(1)
+        sheet.insert_row(expected_headers, index=1)
 
 def save_to_gsheet(entry):
     sheet = get_gsheet_connection()
@@ -36,7 +48,7 @@ def get_last_entry(df):
             "Comments": ""
         }
 
-# --- Streamlit App ---
+# --- Streamlit UI ---
 st.set_page_config(page_title="Extruder Logbook", layout="wide")
 page = st.sidebar.selectbox("Choose a page", ["Input Page", "History Page"])
 
