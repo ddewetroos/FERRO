@@ -56,7 +56,6 @@ def get_last_entry(df):
         }
 
 # --- Streamlit UI ---
-st.set_page_config(page_title="Extruder Logbook", layout="wide")
 page = st.sidebar.selectbox("Choose a page", ["Input Page", "History Page"])
 
 if page == "Input Page":
