@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "extruder-logbook",
+  "private_key_id": "5fecf5f11b6652feb905a86c4d5ea7d1138dd9a9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC8iYebxNCdNKwm\nLYHPXrztPAIG8uSQYYZ1l2+Al6HAZTrxXpaYGQ7epVCofWqNy22ZQAyWppathw8l\nKQ4lUVe7q0lIEIPIsTr3hTKPi7uRhe95abjikeyrE96niQySldDtWTA+woNNCJnN\nWfeNlB1xlDudV0sWtwF9cE07wycIvfyrJ/f7d8z0B8gFMEK3sjd2/fOPQSrN2TkV\nOEqYUfPShHjAse2NvcRK0SM198Nm+Guq285f9B7/K8E3vzfgAm1afjumMl/cbRB+\nrx8NzgpCk08/KsThTluvmIayhNXDOXEAAJfyN8XFfM0TaoJBcI2S9nqKTMiyk5Nr\nhjlghm5JAgMBAAECggEABLb4Ow0ajenaqbg+3CeReCnFX7Tcgh9MOF3VehzgnMHz\nTcSopaxPvsHZ0OLVAq99AcV0IyLOlw+O8YYTrlt4ww7LHfgawY6sC7NLIsOS6NZV\neR7rko/lYBhWu7ANzk8cisjtj843sBoYVYYrzoCvFU9oh7xeenaQXRmNNuLAE8P4\nZ81y46BeWnqkEqy37SLnFQo3NI88rDSUNffW1RaVyj69Ay09bG2b4MNNtS7HF83R\n8lwMUU4fLlOlRnzVeNdxf59IvaRCOUTCv1d9gJ/wB+cWqyvWW02yPjU4ELZllBV4\nYjV8GATyX0wnBz4hNsyUu75zlDs0hxdTYg31ni85gQKBgQD9HUN1dGDR/Cu6RS2a\n4qidKBV+wTdSdm+ScQMZDyvYkBka00Vm+Qcf3Tj4gBZIAwZY0jC0IMaASfYghDQA\nIWTBPy9i+I3gcomSTBEZPOZytSoEffkxc3nMGtBRNd9NgpkhGODXXs4l3D9xqAuc\nrOLc1wi2PS0a/qYrjxgc9bCTyQKBgQC+r8rSxCAkF+bm3UXTzpTsOiAV3hP2TX5S\ndZKnlEqUbDghbk/dsoYhyGsqOXdMPi1aaytvorWoKpDa2OYTnUeH5V+K62HvvXXp\nsIorhYGV5evyNF/J4ifPit526IgKzbXkmeu/U1fBkvjFerFwLxxq1x5axqVKbXGA\nF2wIrItGgQKBgEQzrWipqikKtNGlMEuqxVpLYbdc4sZCiX/BGd+Xue3JrioPQYUk\nluncFyzGfrp6riwivuLabgJFa5+JX+WlGdwEZYVaiggvdKhJ/NV7FnFUJXU+aHYN\nsoTvuLAZPwlIpnBHntYJgqyq8yFx8WcPIrX07zEDvPKoKShVj17GSQUZAoGARDCB\nC1XvWHjjrXM7YT7iqocuqiM8aDvWDI7W3u58rQ72E55rGRCaPsJ48CSUsMMbXNYu\nNkGtTHHMUzZ1MFZyGfrAa+E4qI7L98GV53JaoMwT0A1Co+Mn8WProgINhC+D+DfC\nwix/mU2BgL0bbs6qDtrWlAetXCw/BltZ2tA5DgECgYEA9nweERdHcEZ9ZMoyHMBA\nCASTpJFbTbaXRF8FSjiEQLgr101Iq2zAp0D4W5msuegxCtC5ahK3IlM2t5ujt7Ie\n9sFtT+VDr1cVmBM2T8VWXhhfYTLBK0riBruPpH/egjYMVSRrrz2/Hi5fddU6Ny7i\nXhBSciyF+RTPE6M6WQBisLA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "extruder-logbook@extruder-logbook.iam.gserviceaccount.com",
+  "client_id": "101318181325277518508",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/extruder-logbook%40extruder-logbook.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
