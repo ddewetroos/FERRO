@@ -7,7 +7,7 @@ from google.oauth2.service_account import Credentials
 # --- Set page config with icon and title ---
 st.set_page_config(
     page_title="Extruder Logbook",
-    page_icon="Extruder.png",  # Must be in same folder as this script
+    page_icon="Favicon.png",  # Must be in same folder as this script
     layout="wide"
 )
 
